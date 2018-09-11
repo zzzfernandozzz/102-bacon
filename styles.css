@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-weight: bold;    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(202, 44, 16);
+}
+header img{
+    width: 6vw; /* vw: viewport width ou seja, se ajusta de acordo com a largura da tela*/
+    margin-right: 10px;
+    padding: 5px;
+}
+body{
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(206, 140, 64)
+}
+
+.menu a{
+    text-decoration:none;
+    color: white;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+aside h2, aside p{
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+.receita{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
